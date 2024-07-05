@@ -1,0 +1,72 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
+
+#wrap {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+header{
+    position: relative;
+}
+header figure {
+    width: 1440px;
+    height: 360px;
+    background: url(../img/nathan-anderson-kujXUuh1X0o-unsplash.jpg) no-repeat left bottom / cover;
+}
+header h1 {
+    position: absolute;
+    top: 30%; left: 50%;
+    transform: translate(-45%);
+    font-family: "Yesteryear", serif;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 400;
+    text-shadow: 0 3px 0 rgba(0, 0, 0, 0.7);
+}
+header .gnb {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+header .gnb li {
+    width: calc(100%/5);
+    text-align: center;
+}
+header .gnb li > a {
+    display: block;
+    font-size: 18px;
+    line-height: 48px;
+    text-align: center;
+    background-color: slateblue;
+    color: #fff;
+}
+
+.contents {
+    display: flex;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+.contents .text_area {
+    max-width: 65%;
+}
+.contents .text_area h2 {
+    color: slateblue;
+
+}
+.contents .text_area p > strong {
+    display: block;
+    margin-top: 10px;
+}
+.contents .text_area p > span {
+    display: block;
+    margin-top: 10px;
+}
+.contents .img_area {
+    width: 20%;
+    margin-left: 15%;
+}
+.contents .img_area figure {
+    height: 180px;
+    background: url(../img/everett-mcintire-BPCsppbNRMI-unsplash.jpg) no-repeat center/cover;
+    margin-bottom: 10px;
+}
